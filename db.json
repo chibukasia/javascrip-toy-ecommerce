@@ -3,83 +3,176 @@
     {
       "id": 1,
       "name": "Woody",
-      "colors": ["blue", "red", "green", "white"],
+      "colors": [
+        "blue",
+        "red",
+        "green",
+        "white"
+      ],
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
       "description": "This is a toy liked  by many kids and kids enjoy haveing it arround them",
       "longDescription": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
       "price": 275,
-      "rating": 4.5
+      "rating": 4.5,
+      "comments": ""
     },
     {
       "id": 2,
       "name": "Buzz Lightyear",
-      "colors": ["blue", "red", "green", "white"],
+      "colors": [
+        "blue",
+        "red",
+        "green",
+        "white"
+      ],
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
       "description": "This is a toy liked  by many kids and kids enjoy haveing it arround them",
       "longDescription": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
       "price": 600,
-      "rating": 4.8
+      "rating": 4.8,
+      "comments": [
+        "nice one"
+      ]
     },
     {
       "id": 3,
       "name": "Mr. Potato Head",
-      "colors": ["blue", "red", "green", "white"],
+      "colors": [
+        "blue",
+        "red",
+        "green",
+        "white"
+      ],
       "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
       "longDescription": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
       "description": "This is a toy liked  by many kids and kids enjoy haveing it arround them",
       "price": 300,
-      "rating": 4.3
+      "rating": 4.3,
+      "comments": [
+        "A nice toy "
+      ]
     },
     {
       "id": 4,
       "name": "Slinky Dog",
-      "colors": ["blue", "red", "green", "white"],
+      "colors": [
+        "blue",
+        "red",
+        "green",
+        "white"
+      ],
       "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
       "description": "This is a toy liked  by many kids and kids enjoy haveing it arround them",
       "longDescription": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
       "price": 400,
-      "rating": 4.1
+      "rating": 4.1,
+      "comments": ""
     },
     {
       "id": 5,
       "name": "Rex",
-      "colors": ["blue", "red", "green", "white"],
+      "colors": [
+        "blue",
+        "red",
+        "green",
+        "white"
+      ],
       "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
       "description": "This is a toy liked  by many kids and kids enjoy haveing it arround them",
       "longDescription": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
       "price": 100,
-      "rating": 4.6
+      "rating": 4.6,
+      "comments": ""
     },
     {
       "id": 6,
       "name": "Bo Peep",
-      "colors": ["blue", "red", "green", "white"],
+      "colors": [
+        "blue",
+        "red",
+        "green",
+        "white"
+      ],
       "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
       "description": "This is a toy liked  by many kids and kids enjoy haveing it arround them",
       "longDescription": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
       "price": 200,
-      "rating": 4.7
+      "rating": 4.7,
+      "comments": ""
     },
     {
       "id": 7,
       "name": "Hamm",
-      "colors": ["blue", "red", "green", "white"],
+      "colors": [
+        "blue",
+        "red",
+        "green",
+        "white"
+      ],
       "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
       "description": "This is a toy liked  by many kids and kids enjoy haveing it arround them",
       "longDescription": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
       "price": 300,
-      "rating": 3.9
+      "rating": 3.9,
+      "comments": ""
     },
     {
       "id": 8,
       "name": "Little Green Men",
-      "colors": ["blue", "red", "green", "white"],
+      "colors": [
+        "blue",
+        "red",
+        "green",
+        "white"
+      ],
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "description": "This is a toy liked  by many kids and kids enjoy haveing it arround them",
       "longDescription": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
       "price": 740,
-      "rating": 4.9
+      "rating": 4.9,
+      "comments": ""
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "name": "Buzz Lightyear",
+      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+      "description": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
+      "price": 600,
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "name": "Mr. Potato Head",
+      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
+      "description": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
+      "price": 300,
+      "quantity": 3,
+      "id": 4
+    },
+    {
+      "name": "Buzz Lightyear",
+      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+      "description": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
+      "price": 600,
+      "quantity": 1,
+      "id": 5
+    },
+    {
+      "name": "Buzz Lightyear",
+      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+      "description": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
+      "price": 600,
+      "quantity": 1,
+      "id": 6
+    },
+    {
+      "name": "Buzz Lightyear",
+      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+      "description": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
+      "price": 600,
+      "quantity": 1,
+      "id": 7
+    }
+  ]
 }
