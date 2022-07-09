@@ -64,6 +64,7 @@ function displayCart(cartData){
             if(choice===true){
                 cartCard.remove();
                 removeToy(cartObj);
+                location.reload()
                 
             }
             
@@ -73,5 +74,19 @@ function displayCart(cartData){
     });
 
     // calculate the total price of the cart items
-    //cartData.reduce()
+    function findTotal(total){
+        //let cartToyPrice;
+        //let cartToyQuantity;
+        total = 0;
+        cartData.forEach(cartToy=>{
+            let cartToyPrice = cartToy.price * cartToy.quantity;
+            total += cartToyPrice;
+            //console.log(total);
+        })
+        console.log(total);
+        price.textContent = `Total Price: Ksh ${total} /-`
+        return total;
+    }
+    findTotal()
+    //cartData.reduce(findTotal)
 }

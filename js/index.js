@@ -75,9 +75,9 @@ function displayToys(toysData) {
       
       let rating = toy.rating;
       toysDisplay.innerHTML = `<div class="view-toy-details">
+                                <div class="toy-details" id="toy-name">${toyName}</div>
                                 <img src = "${toyImage}" class="toy-image-view">
                                 <div class="toy-details" id="toy-price">Ksh: ${toyPrice} /-</div>
-                                <div class="toy-details" id="toy-name">${toyName}</div>
                                 <h2>Description</h2>
                                 <p class="decription">${longDescription}</p>
                                 <div id="rating">Rating: ${rating} </div>
@@ -106,8 +106,14 @@ function displayToys(toysData) {
         let viewCart = toysDisplay.querySelector('#view-cart');
         let commentForm = toysDisplay.querySelector('#comment-form');
         let comments = toysDisplay.querySelector('#comments');
-
-
+        // populates comments from the db to the toy product
+        let existingToyComments = toy.comments;
+        //console.log(existingToyComments) 
+        existingToyComments.forEach(existingComment=>{
+          let newCommentList = document.createElement('li');
+          newCommentList.textContent = existingComment;
+          comments.appendChild(newCommentList)
+        });
         addcart.addEventListener('submit', e=>{
           e.preventDefault();
           let quantity = toysDisplay.querySelector('#quantity').value;
@@ -121,8 +127,13 @@ function displayToys(toysData) {
             quantity: quantityInt
           }
           if (toyObj.name != cartToyName){
-            addToCart(toyObj);
-            viewCart.style.display = "block"
+            if(quantityInt<1){
+              alert("Toy quantity cannot be less than 1");
+            }else{
+              addToCart(toyObj);
+              viewCart.style.display = "block"
+            }
+            
           }else{
             alert("Product already in Cart ");
           }
@@ -141,9 +152,9 @@ function displayToys(toysData) {
           if (userComment.trim()!= ""){
             commentList.textContent = userComment;
             updateComments.push(userComment);
-            toy.comments = updateComments 
+            toy.comments.push(userComment) 
             patchComment(toy);
-            console.log(toy.comments);
+            //console.log(toy.comments);
           }
           comments.appendChild(commentList);
           

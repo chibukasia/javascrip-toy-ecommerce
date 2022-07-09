@@ -14,7 +14,10 @@
       "longDescription": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
       "price": 275,
       "rating": 4.5,
-      "comments": ""
+      "comments": [
+        "hello",
+        "kool"
+      ]
     },
     {
       "id": 2,
@@ -31,7 +34,12 @@
       "price": 600,
       "rating": 4.8,
       "comments": [
-        "nice one"
+        "robotic",
+        "buzzer",
+        "buzzerler",
+        "bizman",
+        "killer",
+        "muzuri sana"
       ]
     },
     {
@@ -49,7 +57,9 @@
       "price": 300,
       "rating": 4.3,
       "comments": [
-        "A nice toy "
+        "A nice toy ",
+        "such a nice toy for kids",
+        "A really cool toy"
       ]
     },
     {
@@ -66,7 +76,7 @@
       "longDescription": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
       "price": 400,
       "rating": 4.1,
-      "comments": ""
+      "comments": []
     },
     {
       "id": 5,
@@ -82,7 +92,7 @@
       "longDescription": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
       "price": 100,
       "rating": 4.6,
-      "comments": ""
+      "comments": []
     },
     {
       "id": 6,
@@ -98,7 +108,7 @@
       "longDescription": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
       "price": 200,
       "rating": 4.7,
-      "comments": ""
+      "comments": []
     },
     {
       "id": 7,
@@ -114,7 +124,9 @@
       "longDescription": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
       "price": 300,
       "rating": 3.9,
-      "comments": ""
+      "comments": [
+        "Mr piggy"
+      ]
     },
     {
       "id": 8,
@@ -130,7 +142,7 @@
       "longDescription": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
       "price": 740,
       "rating": 4.9,
-      "comments": ""
+      "comments": []
     }
   ],
   "cart": [
@@ -140,39 +152,15 @@
       "description": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
       "price": 600,
       "quantity": 1,
+      "id": 1
+    },
+    {
+      "name": "Buzz Lightyear",
+      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+      "description": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
+      "price": 600,
+      "quantity": 4,
       "id": 2
-    },
-    {
-      "name": "Mr. Potato Head",
-      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "description": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
-      "price": 300,
-      "quantity": 3,
-      "id": 4
-    },
-    {
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "description": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
-      "price": 600,
-      "quantity": 1,
-      "id": 5
-    },
-    {
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "description": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
-      "price": 600,
-      "quantity": 1,
-      "id": 6
-    },
-    {
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "description": "Buying this valuable toy will enhance and improve your childs social interaction, creativity, saneness and jovial. Every kids loves this toy ane enjoy spending time with it",
-      "price": 600,
-      "quantity": 1,
-      "id": 7
     }
   ]
 }
